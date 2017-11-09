@@ -64,6 +64,6 @@ post:
 
 author:
     # 你的个人简介 (支持 Markdown 和 HTML 语法)
-    bio: ""
+    bio: "Nothing to say"
     # 你的工作简介
-    job: ""
+    job: "Front-End Development Engineer"

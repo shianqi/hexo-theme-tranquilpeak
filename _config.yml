@@ -35,10 +35,6 @@ sidebar:
             title: global.home
             url: /
             icon: home
-        categories:
-            title: global.categories
-            url: /all-categories
-            icon: bookmark
         tags:
             title: global.tags
             url: /all-tags
@@ -58,10 +54,14 @@ sidebar:
             url: /#about
             icon: question
     author_links:
-        # github:
-        #     title: global.github
-        #     url: https://github.com/
-        #     icon: github
+        github:
+            title: global.github
+            url: https://github.com/shianqi
+            icon: github
+        qq:
+            title: global.qq
+            url: tencent://message/?uin=1210219084&Site=有事Q我&Menu=yes
+            icon: qq
         # stack_overflow:
         #     title: global.stack_overflow
         #     url: http://stackoverflow.com/users
@@ -82,15 +82,15 @@ sidebar:
         #     title: global.linkedin
         #     url: https://www.linkedin.com/profile/
         #     icon: linkedin
-        # mail:
-        #     title: global.mail
-        #     url: mailto:
-        #     icon: envelope-o
-    rss:
-        rss:
-            title: global.rss
-            url: /atom.xml
-            icon: rss
+        mail:
+            title: global.mail
+            url: mailto:shianqi@imudges.com
+            icon: envelope-o
+    # rss:
+    #     rss:
+    #         title: global.rss
+    #         url: /atom.xml
+    #         icon: rss
 
 
 # Header configuration
@@ -105,20 +105,20 @@ sidebar:
 header:
     right_link:
         url: /#about
-        icon:
-        class:
+        icon: search
+        class: open-algolia-search
 
 
 # Author
 # Your biography and your job is editable in each languages files in `languages` folder
 author:
-    email:
+    email: shianqi@imudges.com
     location:
     # Your profile picture located in folder `source/_images/` (development)
     # or in `source/assets/images/` (production)
     # or you can use an external url
     # Overwritten by your gravatar image if `gravatar_email` is filled
-    picture:
+    picture: cat_sm.png
     # Your Twitter username without the @. E.g : `tranquilpeak`
     twitter:
     # Your personal google plus profile id, not your blog or business page id.
