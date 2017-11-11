@@ -133,7 +133,7 @@ $headings-font-size-md-screen-reduction-factor: 0.15rem;
 
 // Main
 $about: (
-    'background': rgba(17, 26, 35, 0),
+    'background': rgba(0, 0, 0, 0.3),
 );
 
 // Header
@@ -149,14 +149,14 @@ $sidebar: (
     'md-screen-width':  75px,
     'lg-screen-width':  250px,
     'xlg-screen-width': 500px,
-    'background':       rgba(17, 26, 35, 0),
+    'background':       rgba(0, 0, 0, 0.3),
     'color':            #ebebeb
 );
 
 // Main
 $main: (
-    'padding-top':      15px,
-    'background-color': #fff
+    'padding-top':      0,
+    'background-color': rgba(255,255,255,0.5)
 );
 
 // Components settings
@@ -216,8 +216,7 @@ $image-gallery-photos-margin: 2px;
 
 // Main content
 $main-content: (
-    'max-width':          750px,
-    'padding-right-left': 20px,
+    'max-width':          1200px
 );
 
 // Mardown
