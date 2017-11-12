@@ -155,8 +155,8 @@ $sidebar: (
 
 // Main
 $main: (
-    'padding-top':      0,
-    'background-color': rgba(255,255,255,0.5)
+    'padding-top':      15,
+    'background-color': #fff
 );
 
 // Components settings
@@ -216,7 +216,8 @@ $image-gallery-photos-margin: 2px;
 
 // Main content
 $main-content: (
-    'max-width':          1200px
+    'max-width':          1200px,
+    'padding-right-left': 20px
 );
 
 // Mardown

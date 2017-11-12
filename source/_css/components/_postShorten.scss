@@ -3,7 +3,7 @@
 .postShorten-group {
     .postShorten {
         // Space between 2 shorten post
-        margin-bottom:    15px;
+        margin-top:    15px;
         border-bottom: 1px solid #eef2f8;
     }
 }
@@ -14,9 +14,6 @@
     width:          100%;
     display:        inline-block;
     vertical-align: top;
-    background:     #fff;
-    padding:        50px;
-    box-sizing:     border-box;
 
     .postShorten-thumbnailimg {
         overflow:hidden;
